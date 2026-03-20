@@ -1,0 +1,267 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* Navigation Styles */
+header {
+  background: #333;
+  color: #fff;
+  padding: 10px 0;
+}
+
+nav {
+  max-width: 1100px;
+  margin-left: 140px;
+  padding: 0 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav .logo a {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+nav .logo-img {
+  height: 60px; /* adjust to fit your design */
+  margin-right: 10px;
+}
+
+
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+
+/* Main Styles */
+.main-header {
+  background: #f4f4f4; /* Light background, change as needed */
+  padding: 20px;
+  text-align: center;
+}
+
+.logo-container {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center; /* Centers logos horizontally */
+  align-items: center;     /* Vertically aligns them if needed */
+}
+
+.logo {
+  max-width: 100px; /* Adjust size as needed */
+  margin: 0 10px;
+  vertical-align: middle;
+}
+
+.main-header h1 {
+  font-size: 2.5rem;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.main-header h2 {
+  font-size: 1.5rem;
+  margin-top: 5px;
+  color: #333;
+}
+
+.main-header p {
+  color: #333;
+}
+
+/* Container */
+.container {
+  width: 80%;
+  margin: 20px auto;
+  padding: 20px 0;
+}
+
+/* Content Section */
+.content {
+  padding: 40px 0;
+  background: #f4f4f4;
+  text-align: left;
+}
+
+/* About & Contact Sections */
+.about, .contact {
+  padding: 40px 0;
+}
+
+.about h2 {
+  margin-top: 40px;
+}
+
+/* Footer */
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 20px;
+}
+
+
+    /* Style for highlighted words */
+    .highlight {
+      font-weight: bold;
+      color: #333; /* You can change the color as needed */
+    }
+    .topics ul {
+      list-style-type: disc;
+      margin-left: 40px;
+    }
+
+
+/* dropdown */
+.dropdown {
+  position: relative;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background: white;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+/* table */
+/*  th, td {
+  border: 2px solid black; /* Change 2px to your desired thickness 
+  padding: 20px;
+}  */
+
+table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    th, td {
+      border-bottom: 1px solid #ddd;
+      padding: 6px 8px;
+      text-align: left;
+      vertical-align: top;
+    }
+    th {
+      background-color: #f8f8f8;
+    }
+    .slot {
+      background-color: #f0f8ff;
+      font-weight: bold;
+      text-align: center;
+    }
+    td.time {
+      white-space: nowrap;
+      width: 1%;
+    }
+
+/* style for persons */
+.person {
+      display: flex;
+      align-items: center;
+      background: #fff;
+      padding: 40px;
+      margin-bottom: 10px;
+      margin-left: 150px;
+      width: 80%;
+      justify-content: center;
+    }
+    .person img {
+      width: 150px;
+      height: auto;
+      border-radius: 50%;
+      margin-right: 20px;
+    }
+    .info {
+      flex: 1;
+    }
+    .info h2 {
+      margin: 0 0 10px;
+      font-size: 1.5em;
+      color: #333;
+    }
+    .info p {
+      margin: 0;
+      color: #555;
+    }
+
+.speaker {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  padding: 40px;
+  margin-bottom: 20px;
+  margin-left: 0;         /* align left */
+  margin-right: auto;     /* no horizontal centering */
+  width: 80%;
+  justify-content: flex-start;
+  border-radius: 8px;
+}
+.speaker img {
+  width: 150px;
+  height: auto;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+.speaker .info {
+  flex: 1;
+}
+.speaker .info h2 {
+  margin: 0 0 10px;
+  font-size: 1.5em;
+  color: #333;
+}
+.speaker .info p {
+  margin: 0;
+  color: #555;
+}
+
+
+/* Gallery */
+.gallery-grid { display: grid; grid-template-columns: repeat(12, 1fr); gap: .75rem; }
+.gallery-grid a { display: block; position: relative; overflow: hidden; border-radius: 12px; border: 1px solid var(--border); background: #fff; }
+.gallery-grid img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform .25s ease-in-out; }
+.gallery-grid a:hover img { transform: scale(1.02); }
+.span-6 { grid-column: span 12; height: 240px; }
+@media (min-width: 720px) { .span-6 { grid-column: span 6; height: 320px; } }
+.span-3 { grid-column: span 6; height: 160px; }
+@media (min-width: 720px) { .span-3 { grid-column: span 3; height: 180px; } }
+
+/* Lightbox */
+.lightbox { position: fixed; inset: 0; background: rgba(0,0,0,.8); display: none; align-items: center; justify-content: center; padding: 2rem; z-index: 100; }
+.lightbox.open { display: flex; }
+.lightbox img { max-width: 92vw; max-height: 86vh; border-radius: 12px; background: #fff; }
+.lightbox .close { position: absolute; top: 16px; right: 16px; background: #fff; border-radius: 999px; border: 1px solid var(--border); padding: .4rem .7rem; cursor: pointer; box-shadow: var(--shadow); }
+
