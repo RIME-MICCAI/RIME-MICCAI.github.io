@@ -1,1 +1,1 @@
-# RIME-MICCAI25.github.io
+# RIME-MICCAI.github.io
