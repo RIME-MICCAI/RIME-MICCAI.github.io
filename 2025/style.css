@@ -58,6 +58,13 @@ nav .logo-img {
   font-size: 16px;
 }
 
+.archive-banner {
+  background: #fff3cd;
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
+  border-bottom: 1px solid #e0c97f;
+}
 
 /* Main Styles */
 .main-header {
