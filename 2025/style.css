@@ -59,20 +59,25 @@ nav .logo-img {
 }
 
 .archive-banner {
-  background: #fff3cd;
-  color: #333;
+  max-width: 1100px;        /* same width as nav */
+  margin: 20px auto;        /* centers it horizontally */
   padding: 12px 20px;
+  
+  background: #ffe5e5;      /* light red background */
+  color: #7a0000;           /* dark red text */
+  
+  border: 2px solid #cc0000;
+  border-radius: 8px;
+
   text-align: center;
   font-size: 15px;
-  border-top: 1px solid #e0c97f;
-  border-bottom: 1px solid #e0c97f;
 }
 
+/* Link styling inside banner */
 .archive-banner a {
-  color: #0056b3;
+  color: #cc0000;
   font-weight: bold;
   text-decoration: underline;
-  margin-left: 6px;
 }
 
 /* Main Styles */
