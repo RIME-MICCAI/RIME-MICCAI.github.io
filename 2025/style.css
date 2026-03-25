@@ -60,10 +60,19 @@ nav .logo-img {
 
 .archive-banner {
   background: #fff3cd;
-  padding: 10px;
+  color: #333;
+  padding: 12px 20px;
   text-align: center;
-  font-size: 14px;
+  font-size: 15px;
+  border-top: 1px solid #e0c97f;
   border-bottom: 1px solid #e0c97f;
+}
+
+.archive-banner a {
+  color: #0056b3;
+  font-weight: bold;
+  text-decoration: underline;
+  margin-left: 6px;
 }
 
 /* Main Styles */
