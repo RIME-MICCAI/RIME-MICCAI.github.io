@@ -312,17 +312,18 @@ table {
   align-items: center;
   gap: 30px;
   width: 100%;
-  margin: 20px 0 80px 0;   /* extra space below */
+  margin: 20px 0 80px 30;   /* extra space below */
   padding: 20px 0;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
 }
 
 .sponsor-logo {
-  width: 220px;
-  max-width: 100%;
+  width: 120px;
+  max-width: 80%;
   height: auto;
   display: block;
+  margin-left: 30px;
 }
 
 .sponsor-info {
@@ -330,7 +331,7 @@ table {
 }
 
 .sponsor-info h3 {
-  margin: 0 0 10px 0;
+  margin: 0 0 10px 30;
   color: #333;
 }
 
@@ -338,6 +339,7 @@ table {
   margin: 0;
   color: #555;
   line-height: 1.6;
+margin-left: 30px;  
 }
 
 /* Gallery */
