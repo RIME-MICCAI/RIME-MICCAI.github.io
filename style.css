@@ -318,8 +318,8 @@ table {
 
 .sponsor-logo {
   display: block;
-  width: 40px !important;
-  height: 40px !important;
+  width: 100px !important;
+  height: 100px !important;
   object-fit: contain;
 }
 
