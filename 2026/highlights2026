@@ -78,118 +78,69 @@
 
   <h3 style="margin-top: 1.5em;">Photos</h3>
       <div class="card">
-        <div class="gallery-grid" id="gallery" aria-label="Workshop photo gallery">
-          <!-- Inline SVG placeholders for preview -->
-          <a href="#" data-lightbox="placeholder1" class="span-6" aria-label="Open group photo 1">
-            <img alt="Group photo 1 placeholder" src="images/2026/IMG_0404.jpg" />
-          </a>
-          <a href="#" data-lightbox="placeholder2" class="span-6" aria-label="Open group photo 2">
-            <img alt="Group photo 2 placeholder" src="images/2025/image1.jpeg" />
-          </a>
-
-          <a href="#" data-lightbox="ph1" class="span-3" aria-label="Open highlight photo 1">
-            <img alt="Highlight photo 1 placeholder" src="images/2025/1000015488.jpg" />
-          </a>
-          <a href="#" data-lightbox="ph2" class="span-3" aria-label="Open highlight photo 2">
-            <img alt="Highlight photo 2 placeholder" src="images/2025/IMG_0399.jpg" />
-          </a>
-          <a href="#" data-lightbox="ph3" class="span-3" aria-label="Open highlight photo 3">
-            <img alt="Highlight photo 3 placeholder" src="images/2025/IMG_0405.jpg" />
-          </a>
-          <a href="#" data-lightbox="ph4" class="span-3" aria-label="Open highlight photo 4">
-            <img alt="Highlight photo 4 placeholder" src="images/2025/IMG_0401.jpg" />
-          </a>
-        </div>
-      </div>
-
+        <div class="gallery-grid" id="gallery" aria-label="RIME 2026 workshop photo gallery">
+         
         <!-- Photos -->
-        <h3 style="margin-top: 1.5em;">Photos</h3>
 
-        <div class="card">
-          <div
-            class="gallery-grid"
-            id="gallery"
-            aria-label="RIME 2026 workshop photo gallery"
-          >
+           <a href="images/2026/1790687892933.jpg" data-lightbox class="span-6">
+      <img src="images/2026/1790687892933.jpg"
+           alt="RIME 2026 workshop photo 1"
+           loading="lazy">
+    </a>
 
-            <a
-              href="images/2026/IMG_0404.jpg"
-              data-lightbox
-              class="span-6"
-              aria-label="Open RIME 2026 group photo 1"
-            >
-              <img
-                src="images/2026/IMG_0404.jpg"
-                alt="RIME 2026 group photo"
-                loading="lazy"
-              >
-            </a>
+    <a href="images/2026/1790687924608.jpg" data-lightbox class="span-6">
+      <img src="images/2026/1790687924608.jpg"
+           alt="RIME 2026 workshop photo 2"
+           loading="lazy">
+    </a>
 
-            <a
-              href="images/2026/image1.jpeg"
-              data-lightbox
-              class="span-6"
-              aria-label="Open RIME 2026 group photo 2"
-            >
-              <img
-                src="images/2026/image1.jpeg"
-                alt="RIME 2026 group photo"
-                loading="lazy"
-              >
-            </a>
+    <a href="images/2026/1790687930082.jpg" data-lightbox class="span-3">
+      <img src="images/2026/1790687930082.jpg"
+           alt="RIME 2026 workshop photo 3"
+           loading="lazy">
+    </a>
 
-            <a
-              href="images/2026/1000015488.jpg"
-              data-lightbox
-              class="span-3"
-              aria-label="Open RIME 2026 highlight photo 1"
-            >
-              <img
-                src="images/2026/1000015488.jpg"
-                alt="RIME 2026 workshop highlight"
-                loading="lazy"
-              >
-            </a>
+    <a href="images/2026/1790687932303.jpg" data-lightbox class="span-3">
+      <img src="images/2026/1790687932303.jpg"
+           alt="RIME 2026 workshop photo 4"
+           loading="lazy">
+    </a>
 
-            <a
-              href="images/2026/IMG_0399.jpg"
-              data-lightbox
-              class="span-3"
-              aria-label="Open RIME 2026 highlight photo 2"
-            >
-              <img
-                src="images/2026/IMG_0399.jpg"
-                alt="RIME 2026 workshop highlight"
-                loading="lazy"
-              >
-            </a>
+    <a href="images/2026/1790687933299.jpg" data-lightbox class="span-3">
+      <img src="images/2026/1790687933299.jpg"
+           alt="RIME 2026 workshop photo 5"
+           loading="lazy">
+    </a>
 
-            <a
-              href="images/2026/IMG_0405.jpg"
-              data-lightbox
-              class="span-3"
-              aria-label="Open RIME 2026 highlight photo 3"
-            >
-              <img
-                src="images/2026/IMG_0405.jpg"
-                alt="RIME 2026 workshop highlight"
-                loading="lazy"
-              >
-            </a>
+    <a href="images/2026/1790687943826.jpg" data-lightbox class="span-3">
+      <img src="images/2026/1790687943826.jpg"
+           alt="RIME 2026 workshop photo 6"
+           loading="lazy">
+    </a>
 
-            <a
-              href="images/2026/IMG_0401.jpg"
-              data-lightbox
-              class="span-3"
-              aria-label="Open RIME 2026 highlight photo 4"
-            >
-              <img
-                src="images/2026/IMG_0401.jpg"
-                alt="RIME 2026 workshop highlight"
-                loading="lazy"
-              >
-            </a>
+    <a href="images/2026/1790688047351.jpg" data-lightbox class="span-3">
+      <img src="images/2026/1790688047351.jpg"
+           alt="RIME 2026 workshop photo 7"
+           loading="lazy">
+    </a>
 
+    <a href="images/2026/1790688121755.jpg" data-lightbox class="span-3">
+      <img src="images/2026/1790688121755.jpg"
+           alt="RIME 2026 workshop photo 8"
+           loading="lazy">
+    </a>
+
+    <a href="images/2026/1790688122875.jpg" data-lightbox class="span-3">
+      <img src="images/2026/1790688122875.jpg"
+           alt="RIME 2026 workshop photo 9"
+           loading="lazy">
+    </a>
+
+    <a href="images/2026/1790688131978.jpg" data-lightbox class="span-3">
+      <img src="images/2026/1790688131978.jpg"
+           alt="RIME 2026 workshop photo 10"
+           loading="lazy">
+    </a>
           </div>
         </div>
 
